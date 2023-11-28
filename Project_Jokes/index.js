@@ -36,3 +36,4 @@ async function getJoke() {
 }
 
 btnEl.addEventListener("click", getJoke);
+
