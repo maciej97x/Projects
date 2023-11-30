@@ -1,14 +1,12 @@
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-import java.util.stream.Stream; // Import the Stream class
-
+import java.util.stream.Stream;
 
 
 public class Main {
     public static void main(String[] args) {
-        Wall wall = new Wall();  // Create an instance of the Wall class
-        // Perform testing or demonstration of the Wall class here
+        Wall wall = new Wall(); 
     }
 }
 
@@ -49,7 +47,6 @@ class Wall implements Structure {
         return blocks.size();
     }
 
-    // Additional method to handle CompositeBlock
     public List<Block> getAllBlocks() {
         List<Block> allBlocks = blocks.stream()
                 .flatMap(block -> {
