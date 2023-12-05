@@ -14,3 +14,4 @@ function calculateLoan() {
     ).innerHTML = `Monthly Payment: ${monthlyPayment}`;
 }
 
+
