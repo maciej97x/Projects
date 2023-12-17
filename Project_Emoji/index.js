@@ -24,3 +24,5 @@ btnEl.addEventListener("click", () => {
     btnEl.innerText = emoji[randomNum].emojiName;
     emojiNameEl.innerText = emoji[randomNum].emojiCode;
 });
+
+
