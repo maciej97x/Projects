@@ -1,0 +1,7 @@
+post_list:
+    path: /lista
+    controller: App\Controller\PostController::lista
+
+post_delete:
+    path: /post/usun/{id}
+    controller: App\Controller\PostController::usun
