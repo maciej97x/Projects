@@ -35,3 +35,4 @@ class PostController extends AbstractController
         return $this->redirectToRoute('post_list');
     }
 }
+

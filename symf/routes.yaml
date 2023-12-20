@@ -5,3 +5,4 @@ post_list:
 post_delete:
     path: /post/usun/{id}
     controller: App\Controller\PostController::usun
+
