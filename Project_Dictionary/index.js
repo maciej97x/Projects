@@ -38,3 +38,4 @@ inputEl.addEventListener("keyup", (e) => {
         fetchAPI(e.target.value);
     }
 });
+
